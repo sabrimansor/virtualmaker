@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Virtual Maker | Professional Software Development & Consultation</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+  <link rel="icon" type="image/x-icon" href="assets/images/logo/logo_crest.png">
+
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+
+  <style>
+    .mb-10 { margin-bottom: 10px; }
+    .mb-20 { margin-bottom: 20px; }
+    .mb-30 { margin-bottom: 30px; }
+    .mb-40 { margin-bottom: 40px; }
+    .mb-50 { margin-bottom: 50px; }
+    .mb-60 { margin-bottom: 60px; }
+    .mb-70 { margin-bottom: 70px; }
+    .mb-80 { margin-bottom: 80px; }
+    .mb-90 { margin-bottom: 90px; }
+    .mb-100 { margin-bottom: 100px; }
+    .mb-150 { margin-bottom: 150px; }
+    .mb-200 { margin-bottom: 200px; }
+
+    .mt-10 { margin-top: 10px; }
+    .mt-20 { margin-top: 20px; }
+    .mt-30 { margin-top: 30px; }
+    .mt-40 { margin-top: 40px; }
+    .mt-50 { margin-top: 50px; }
+    .mt-60 { margin-top: 60px; }
+    .mt-70 { margin-top: 70px; }
+    .mt-80 { margin-top: 80px; }
+    .mt-90 { margin-top: 90px; }
+    .mt-100 { margin-top: 100px; }
+    .mt-150 { margin-top: 150px; }
+    .mt-200 { margin-top: 200px; }
+
+    .mtb-10 { margin-top: 10px; margin-bottom: 10px; }
+    .mtb-20 { margin-top: 20px; margin-bottom: 20px; }
+    .mtb-30 { margin-top: 30px; margin-bottom: 30px; }
+    .mtb-40 { margin-top: 40px; margin-bottom: 40px; }
+    .mtb-50 { margin-top: 50px; margin-bottom: 50px; }
+    .mtb-60 { margin-top: 60px; margin-bottom: 60px; }
+    .mtb-70 { margin-top: 70px; margin-bottom: 70px; }
+    .mtb-80 { margin-top: 80px; margin-bottom: 80px; }
+    .mtb-90 { margin-top: 90px; margin-bottom: 90px; }
+    .mtb-100 { margin-top: 100px; margin-bottom: 100px; }
+    .mtb-150 { margin-top: 150px; margin-bottom: 150px; }
+    .mtb-200 { margin-top: 200px; margin-bottom: 200px; }
+
+    .pb-10 { padding-bottom: 10px; }
+    .pb-20 { padding-bottom: 20px; }
+    .pb-30 { padding-bottom: 30px; }
+    .pb-40 { padding-bottom: 40px; }
+    .pb-50 { padding-bottom: 50px; }
+    .pb-60 { padding-bottom: 60px; }
+    .pb-70 { padding-bottom: 70px; }
+    .pb-80 { padding-bottom: 80px; }
+    .pb-90 { padding-bottom: 90px; }
+    .pb-100 { padding-bottom: 100px; }
+    .pb-150 { padding-bottom: 150px; }
+    .pb-200 { padding-bottom: 200px; }
+
+    .pt-10 { padding-top: 10px; }
+    .pt-20 { padding-top: 20px; }
+    .pt-30 { padding-top: 30px; }
+    .pt-40 { padding-top: 40px; }
+    .pt-50 { padding-top: 50px; }
+    .pt-60 { padding-top: 60px; }
+    .pt-70 { padding-top: 70px; }
+    .pt-80 { padding-top: 80px; }
+    .pt-90 { padding-top: 90px; }
+    .pt-100 { padding-top: 100px; }
+    .pt-150 { padding-top: 150px; }
+    .pt-200 { padding-top: 200px; }
+
+    .ptb-10 { padding-top: 10px; padding-bottom: 10px; }
+    .ptb-20 { padding-top: 20px; padding-bottom: 20px; }
+    .ptb-30 { padding-top: 30px; padding-bottom: 30px; }
+    .ptb-40 { padding-top: 40px; padding-bottom: 40px; }
+    .ptb-50 { padding-top: 50px; padding-bottom: 50px; }
+    .ptb-60 { padding-top: 60px; padding-bottom: 60px; }
+    .ptb-70 { padding-top: 70px; padding-bottom: 70px; }
+    .ptb-80 { padding-top: 80px; padding-bottom: 80px; }
+    .ptb-90 { padding-top: 90px; padding-bottom: 90px; }
+    .ptb-100 { padding-top: 100px; padding-bottom: 100px; }
+    .ptb-150 { padding-top: 150px; padding-bottom: 150px; }
+    .ptb-200 { padding-top: 200px; padding-bottom: 200px; }
+
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    .navbar-brand {
+        padding: 5px;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    .jumbotron {
+      color: #f2f2f2;
+      background-color: #222;
+    }    
+    .btn-grad {
+      width: 200px;
+    }
+    .btn-grad {
+      background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8  51%, #757F9A  100%);
+      /*margin: 10px;*/
+      padding: 15px 45px;
+      text-align: center;
+      /*text-transform: uppercase;*/
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: white;            
+      font-weight: bold;
+      box-shadow: 0 0 20px #000;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .btn-contact-submit {
+      width: 150px;
+      background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8 51%, #757F9A 100%);
+      padding: 10px;
+      text-align: center;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: white;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      border: none;
+    }
+
+    .btn-grad:hover, .btn-contact-submit:hover, .btn-grad:focus, .btn-contact-submit:focus, .btn-grad:active, .btn-contact-submit:active {
+      background-position: right center; /* change the direction of the change here */
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .services-card {
+      transition: 0.3s;
+      /*width: 40%;*/
+    }
+
+    .services-card-shadow {
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12);
+    }
+
+    .services-card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.12);
+    }
+
+    .services-card-body {
+      padding: 20px 15px;
+    }
+
+    .card {
+      transition: 0.3s;
+      /*width: 40%;*/
+    }
+
+    .card-shadow {
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12);
+    }
+
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.12);
+    }
+
+    .card-body {
+      padding: 2px 16px;
+    }
+
+    .section {
+      padding: 50px 30px;
+    }
+
+    .list-heading {
+      list-style: none;
+    }
+
+    hr {
+      width: 80%;
+      border-top: 4px solid #eee;
+    }
+
+    #btnScrollTop {
+      display: none; /* Hidden by default */
+      position: fixed; /* Fixed/sticky position */
+      bottom: 0px; /* Place the button at the bottom of the page */
+      right: 30px; /* Place the button 30px from the right */
+      z-index: 99; /* Make sure it does not overlap */
+      border: none; /* Remove borders */
+      outline: none; /* Remove outline */
+      background-color: #7b7b7b70; /* Set a background color */
+      color: white; /* Text color */
+      cursor: pointer; /* Add a mouse pointer on hover */
+      padding: 15px; /* Some padding */
+      border-radius: 10px 10px 0 0; /* Rounded corners */
+      font-size: 16px; /* Increase font size */
+    }
+
+    #btnScrollTop:hover {
+      background-color: #222; /* Add a dark-grey background on hover */
+    }
+
+    a:hover .card-title, a:focus .card-title {
+      text-decoration: none !important;
+    }
+
+    input.vm-input, select.vm-input {
+      width: 100%;
+      height: 45px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+    }
+
+    textarea.vm-input {
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      resize: vertical;
+    }
+      
+    
+    
+  </style>
+  <script type="text/javascript">
+      function scrollFunction() {
+        var scrollheight = 300;
+        if (document.body.scrollTop > scrollheight || document.documentElement.scrollTop > scrollheight) {
+          btnScrollTop.style.display = "block";
+        } else {
+          btnScrollTop.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function scrollToTop() {
+        window.scrollTo({top: 0, behavior: 'smooth'});
+      }
+
+      $(document).ready(function(){
+        btnScrollTop = document.getElementById("btnScrollTop");
+        window.onscroll = function() {scrollFunction()};
+      });
+  </script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img src="assets/images/logo/logo_full_header.png" width="100%" height="100%"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#our-services">Our Services</a></li>
+        <li><a href="#past-works">Past Works</a></li>
+        <li><a href="#get-in-touch">Get In Touch</a></li>
+        <li><a href="#about-us">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Mastering Software<br>Craftsmanship</h1>
+    <p>Professional Development & Consultation</p>
+    <p>&nbsp</p>
+    <p class="text-center">
+      <a href="#get-in-touch" class="btn-grad">Contact Us</a>
+    </p>
+  </div>
+</div>
+
+<div id="our-services"></div>
+<div class="section container-fluid bg-3 text-center">
+  <div class="row">
+    <div class="col-sm-12 mtb-20">
+      <h3>Our Services</h3>
+      <p>Each project we deliver is carefully designed and crafted.</p>
+    </div>
+  </div> 
+  <div class="row">
+
+    <div class="col-xs-6 col-sm-4 col-lg-4 mtb-20">
+      <a href="#website-development">
+      <div class="services-card services-card-shadow">
+        <div class="services-card-body">
+          <img src="assets/images/browser.gif" alt="Website Development" title="Website Development" width="50px">
+          <h5 class="services-card-title">Website Development</h5>
+        </div>
+      </div>
+      </a>
+    </div>
+
+    <div class="col-xs-6 col-sm-4 col-lg-4 mtb-20"> 
+      <a href="#e-commerce">
+      <div class="services-card services-card-shadow">
+        <div class="services-card-body">
+          <img src="assets/images/online-shopping.gif" alt="E-commerce" title="E-commerce" width="50px">
+          <h5 class="services-card-title">E-commerce</h5>
+        </div>
+      </div>
+      </a>
+    </div>
+
+    <div class="col-xs-6 col-sm-4 col-lg-4 mtb-20"> 
+      <a href="#chatbot">
+      <div class="services-card services-card-shadow">
+        <div class="services-card-body">
+          <img src="assets/images/bubble-chat.gif" alt="Chatbot" title="Chatbot" width="50px">
+          <h5 class="services-card-title">Chatbot</h5>
+        </div>
+      </div>
+      </a>
+    </div>
+
+    <div class="col-xs-6 col-sm-4 col-lg-4 mtb-20"> 
+      <a href="#website-application">
+      <div class="services-card services-card-shadow">
+        <div class="services-card-body">
+          <img src="assets/images/gps.gif" alt="Website Application" title="Website Application" width="50px">
+          <h5 class="services-card-title">Website Application</h5>
+        </div>
+      </div>
+      </a>
+    </div>
+
+    <div class="col-xs-6 col-sm-4 col-lg-4 mtb-20">
+      <a href="#mobile-application">
+      <div class="services-card services-card-shadow">
+        <div class="services-card-body">
+          <img src="assets/images/shopping.gif" alt="Mobile Application" title="Mobile Application" width="50px">
+          <h5 class="services-card-title">Mobile Application</h5>
+        </div>
+      </div>
+      </a>
+    </div>
+
+    <!-- <div class="col-xs-6 col-sm-4 col-lg-4 mtb-20"> 
+      <a href="#desktop-application">
+      <div class="services-card services-card-shadow">
+        <div class="services-card-body">
+          <img src="assets/images/workplace.gif" alt="Desktop Application" title="Desktop Application" width="50px">
+          <h5 class="services-card-title">Desktop Application</h5>
+        </div>
+      </div>
+      </a>
+    </div> -->
+
+    <div class="col-xs-6 col-sm-4 col-lg-4 mtb-20"> 
+      <a href="#ai-machine-learning">
+      <div class="services-card services-card-shadow">
+        <div class="services-card-body">
+          <img src="assets/images/connection.gif" alt="AI / Machine Learning" title="AI / Machine Learning" width="50px">
+          <h5 class="services-card-title">AI / Machine Learning</h5>
+        </div>
+      </div>
+      </a>
+    </div>
+
+    <!-- <div class="col-xs-6 col-sm-4 col-lg-4 mtb-20"> 
+      <a href="#augmented-reality">
+      <div class="services-card services-card-shadow">
+        <div class="services-card-body">
+          <img src="assets/images/3d-cube.gif" alt="Augmented Reality" title="Augmented Reality" width="50px">
+          <h5 class="services-card-title">Augmented Reality</h5>
+        </div>
+      </div>
+      </a>
+    </div> -->
+
+   <!--  <div class="col-xs-6 col-sm-4 col-lg-4 mtb-20"> 
+      <a href="#virtual-reality">
+      <div class="services-card services-card-shadow">
+        <div class="services-card-body">
+          <img src="assets/images/street-view.gif" alt="Virtual Reality" title="Virtual Reality" width="50px">
+          <h5 class="services-card-title">Virtual Reality</h5>
+        </div>
+      </div>
+      </a>
+    </div> -->
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-lg-12">
+      <p><a target="_blank" style="color: #f2f2f2;" href="https://www.flaticon.com/animated-icons" title="animated icons">Icons created by Freepik - Flaticon</a></p>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<div id="past-works"></div>
+<div class="section container-fluid bg-3">
+  <div class="row text-center">
+    <div class="col-sm-12 mtb-20">
+      <h3>Past Works</h3>
+    </div>
+  </div> 
+  <div class="row">
+    <div class="col-xs-6 col-sm-6 col-lg-3 mtb-20">
+      <div class="card card-shadow">
+        <div class="bd-placeholder-img card-img-top">
+          <img src="https://sabribinmansor.s3-ap-southeast-1.amazonaws.com/app_mimbar.jpg" width="100%" height="200">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Mimbar SG</h5>
+          <p class="card-text">Custom SAAS Software for local Singapore organizations - crafted and developed from scratch</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6 col-sm-6 col-lg-3 mtb-20"> 
+      <div class="card card-shadow">
+        <div class="bd-placeholder-img card-img-top">
+          <img src="https://sabribinmansor.s3-ap-southeast-1.amazonaws.com/app_mimbar.jpg" width="100%" height="200">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Mimbar MY</h5>
+          <p class="card-text">Custom SAAS Software for Malaysian organizations -  crafted and developed from scratch</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6 col-sm-6 col-lg-3 mtb-20"> 
+      <div class="card card-shadow">
+        <div class="bd-placeholder-img card-img-top">
+          <img src="https://sabribinmansor.s3-ap-southeast-1.amazonaws.com/app_membership.jpg" width="100%" height="200">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Membership System</h5>
+          <p class="card-text">Custom membership management software for our client to create and provide special deals for their members</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6 col-sm-6 col-lg-3 mtb-20"> 
+      <div class="card card-shadow">
+        <div class="bd-placeholder-img card-img-top">
+          <img src="https://sabribinmansor.s3-ap-southeast-1.amazonaws.com/app_sribot.jpg" width="100%" height="200">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Sri Bot</h5>
+          <p class="card-text">AI powered chatbot developed as a prototype to test alternative method to manage customer enquiries.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<!-- 
+<div id="website-development"></div>
+<div class="section container-fluid bg-3">
+  <div class="row text-center">
+    <div class="col-sm-12 mtb-20">
+      <h3>Website Development</h3>
+    </div>
+  </div> 
+  <div class="row">
+    <div class="col-xs-6 col-sm-6 col-lg-3 mtb-20">
+      <div class="card card-shadow">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="39%" y="55%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+        <div class="card-body">
+          <h5 class="card-title">Portfolio</h5>
+          <p class="card-text"></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6 col-sm-6 col-lg-3 mtb-20"> 
+      <div class="card card-shadow">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="39%" y="55%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+        <div class="card-body">
+          <h5 class="card-title">Landing Page</h5>
+          <p class="card-text"></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6 col-sm-6 col-lg-3 mtb-20"> 
+      <div class="card card-shadow">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="39%" y="55%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+
+        <div class="card-body">
+          <h5 class="card-title">Blog</h5>
+          <p class="card-text"></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6 col-sm-6 col-lg-3 mtb-20"> 
+      <div class="card card-shadow">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="39%" y="55%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+
+        <div class="card-body">
+          <h5 class="card-title">Dashboard</h5>
+          <p class="card-text"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr>
+<div id="e-commerce"></div>
+<div class="section container-fluid bg-3">
+  <div class="row text-center">
+    <div class="col-sm-12 mtb-20">
+      <h3>E-commerce</h3>
+    </div>
+  </div> 
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-lg-3 mtb-20">
+      <div class="card card-shadow">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="39%" y="55%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+        <div class="card-body">
+          <h5 class="card-title">Store Setup | Maintenance</h5>
+          <p class="card-text"></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-sm-12 col-sm-9 mtb-20">
+    </div>
+  </div>
+</div>
+
+<hr>
+<div id="chatbot"></div>
+<div class="section container-fluid bg-3">
+  <div class="row text-center">
+    <div class="col-sm-12 mtb-20">
+      <h3>Chatbot</h3>
+    </div>
+  </div> 
+  <div class="row">
+    <div class="col-sm-12 col-sm-12 col-sm-6 mtb-20">
+    </div>
+    <div class="col-xs-6 col-sm-6 col-lg-3 mtb-20">
+      <div class="card card-shadow">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="39%" y="55%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+        <div class="card-body">
+          <h5 class="card-title">Facebook Messenger</h5>
+          <p class="card-text"></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6 col-sm-6 col-lg-3 mtb-20">
+      <div class="card card-shadow">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="39%" y="55%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+        <div class="card-body">
+          <h5 class="card-title">Custom Chatbot</h5>
+          <p class="card-text"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<hr>
+<div id="website-application"></div>
+<div class="section container-fluid bg-3">
+  <div class="row text-center">
+    <div class="col-sm-12 mtb-20">
+      <h3>Website Application</h3>
+    </div>
+  </div> 
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-lg-3 mtb-20">
+      <div class="card card-shadow">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="39%" y="55%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+        <div class="card-body">
+          <h5 class="card-title">Software as a Service</h5>
+          <p class="card-text"></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-sm-12 col-sm-3 mtb-20">
+    </div>
+    <div class="col-xs-12 col-sm-12 col-lg-3 mtb-20">
+      <div class="card card-shadow">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="39%" y="55%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+        <div class="card-body">
+          <h5 class="card-title">Custom Application</h5>
+          <p class="card-text"></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-sm-12 col-sm-3 mtb-20">
+    </div>
+  </div>
+</div>
+
+
+
+<hr>
+<div id="mobile-application"></div>
+<div class="section container-fluid bg-3">
+  <div class="row text-center">
+    <div class="col-sm-12 mtb-20">
+      <h3>Mobile Application</h3>
+    </div>
+  </div> 
+  <div class="row">
+    <div class="col-sm-12 col-sm-12 col-sm-3 mtb-20">
+    </div>
+    <div class="col-xs-12 col-sm-12 col-lg-3 mtb-20">
+      <div class="card card-shadow">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="39%" y="55%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+        <div class="card-body">
+          <h5 class="card-title">iOS App</h5>
+          <p class="card-text">Coming Soon.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-sm-12 col-sm-3 mtb-20">
+    </div>
+    <div class="col-xs-12 col-sm-12 col-lg-3 mtb-20"> 
+      <div class="card card-shadow">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="39%" y="55%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+        <div class="card-body">
+          <h5 class="card-title">Android App</h5>
+          <p class="card-text">Coming Soon.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr>
+<div id="desktop-application"></div>
+<div class="section container-fluid bg-3">
+  <div class="row text-center">
+    <div class="col-sm-12 mtb-20">
+      <h3>Desktop Application</h3>
+    </div>
+  </div> 
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-lg-3 mtb-20"> 
+      <div class="card card-shadow">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="39%" y="55%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+        <div class="card-body">
+          <h5 class="card-title">Mac OS</h5>
+          <p class="card-text">Coming Soon.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-sm-12 col-sm-3 mtb-20">
+    </div>
+    <div class="col-xs-12 col-sm-12 col-lg-3 mtb-20"> 
+      <div class="card card-shadow">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="39%" y="55%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+        <div class="card-body">
+          <h5 class="card-title">Windows OS</h5>
+          <p class="card-text">Coming Soon.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-sm-12 col-sm-3 mtb-20">
+    </div>
+  </div>
+</div>
+
+<hr>
+<div id="ai-machine-learning"></div>
+<div class="section container-fluid bg-3">
+  <div class="row text-center">
+    <div class="col-sm-12">
+      <h3>AI / Machine Learning</h3>
+    </div>
+  </div> 
+  <div class="row">
+    <div class="col-sm-6 col-lg-4 mtb-20"> 
+      <div class="card card-shadow">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="39%" y="55%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+        <div class="card-body">
+          <h5 class="card-title">Machine Learning</h5>
+          <p class="card-text">Coming Soon.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mtb-20"> 
+      <div class="card card-shadow">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="39%" y="55%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+        <div class="card-body">
+          <h5 class="card-title">Natural Language Processing (NLP)</h5>
+          <p class="card-text">Coming Soon.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mtb-20"> 
+      <div class="card card-shadow">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="39%" y="55%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+        <div class="card-body">
+          <h5 class="card-title">Recommendations Engine</h5>
+          <p class="card-text">Coming Soon.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mtb-20"> 
+      <div class="card card-shadow">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="39%" y="55%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+        <div class="card-body">
+          <h5 class="card-title">Sentiments Analysis</h5>
+          <p class="card-text">Coming Soon.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mtb-20"> 
+      <div class="card card-shadow">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="39%" y="55%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+        <div class="card-body">
+          <h5 class="card-title">Image Recognition</h5>
+          <p class="card-text">Coming Soon.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<hr>
+<div id="augmented-reality"></div>
+<div class="section container-fluid bg-3">
+  <div class="row text-center">
+    <div class="col-sm-12 mtb-20">
+      <h3>Augmented Reality</h3>
+    </div>
+  </div> 
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-lg-3 mtb-20">
+      <div class="card card-shadow">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="39%" y="55%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+        <div class="card-body">
+          <h5 class="card-title">Coming Soon.</h5>
+          <p class="card-text"></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-sm-12 col-sm-9 mtb-20">
+    </div>
+  </div>
+</div>
+
+
+<hr>
+<div id="virtual-reality"></div>
+<div class="section container-fluid bg-3">
+  <div class="row text-center">
+    <div class="col-sm-12 mtb-20">
+      <h3>Virtual Reality</h3>
+    </div>
+  </div> 
+  <div class="row">
+    <div class="col-sm-12 col-sm-12 col-sm-9 mtb-20">
+    </div>
+    <div class="col-xs-12 col-sm-12 col-lg-3 mtb-20">
+      <div class="card card-shadow">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="39%" y="55%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+        <div class="card-body">
+          <h5 class="card-title">Coming Soon.</h5>
+          <p class="card-text"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<div class="section container-fluid mtb-20">
+  <div class="row text-center">
+    <div class="col-sm-12">
+      <h3>Partners</h3>
+    </div>
+  </div> 
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    </div>
+  </div>
+</div>
+
+<hr> -->
+
+
+<div id="about-us"></div>
+<div class="section container-fluid mtb-20">
+  <div class="row text-center">
+    <div class="col-sm-12">
+      <h3>About Us</h3>
+    </div>
+  </div> 
+  <div class="row mt-20 text-center">
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <p><img src="assets/images/origami.png" alt="Software Craftsmanship Image Icon" width="100px"></p>
+        <p ><strong>Software Craftsmanship</strong></p>
+        <p class="mb-50">
+          As practitioners of software engineering, we are dedicated to the craft - building functional, maintainable and scalable products. Products that are not only beautiful and easy to use, but designed attentively to adapt to the fast changing world.
+        </p>
+
+        <p><img src="assets/images/world-book-day.png" alt="Software Craftsmanship Image Icon" width="100px"></p>
+        <p><strong>Our Story</strong></p>
+        <p class="mb-50">
+          Born out of the desire to excel in creating quality software that can benefit others, Virtual Maker aspires to create elegant yet functional digital products that solves your problems.
+        </p>
+
+        <p><img src="assets/images/customer-service.png" alt="Software Craftsmanship Image Icon" width="100px"></p>
+        <p><strong>Our Services</strong></p>
+        At the moment we are focusing on these 6 areas of development: Website Development, E-commerce, Chatbot, Website Application, Mobile Application, and AI / Machine Learning.  
+        </p>
+        
+        <!-- At the moment we are focusing on these 9 areas of development: Website Development, E-commerce, Chatbot, Website Application, Mobile Application, Desktop Application, AI / Machine Learning, Augmented Reality and Virtual Reality. -->
+    </div>
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
+  </div>
+</div>
+
+<hr>
+
+ <div class="section container-fluid mtb-20">
+  <div class="row text-center">
+    <div class="col-sm-12">
+      <h3>Testimonials</h3>
+    </div>
+  </div> 
+  <div class="row mt-30">
+    <style type="text/css">
+      #testimonial-carousel .item {
+          height: 250px;
+      }
+      #testimonial-carousel .item .carousel-caption {
+          color: #000;
+          padding-bottom: 60px;
+          text-shadow: none;
+      }
+      #testimonial-carousel .carousel-control {
+          color: #222;
+      }
+      #testimonial-carousel .carousel-control.right, #testimonial-carousel .carousel-control.left {
+          background-image: none;
+          color: #fff;
+          text-shadow: none;
+      }
+      #testimonial-carousel .carousel-indicators li {
+          border: 1px solid #222;
+          background-color: #222;
+      }
+      #testimonial-carousel .carousel-indicators .active {
+          background-color: #000;
+      }
+    </style>
+    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2"></div>
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+        <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#testimonial-carousel" data-slide-to="1"></li>
+            <li data-target="#testimonial-carousel" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+
+            <div class="item active">
+              <div class="carousel-caption">
+                <h3>"It is very rare to find developers who understand business requirements - these guys are one of those who can."</h3>
+                <p>- Ms Tan, Senior Manager</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="carousel-caption">
+                <h3>"Professional, clean, and efficient"</h3>
+                <p>- Anonymous</p>
+              </div>
+            </div>
+          
+            <div class="item">
+              <div class="carousel-caption">
+                <h3>"Easy to work with, respond to changes quickly and without hassle."</h3>
+                <p>- Anonymous</p>
+              </div>
+            </div>
+        
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#testimonial-carousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#testimonial-carousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2"></div>
+  </div>
+</div>
+
+<hr>
+
+<div class="section container-fluid mtb-20">
+  <div class="row text-center">
+    <div class="col-sm-12">
+      <h3>We are based in Singapore!</h3>
+    </div>
+  </div> 
+  <div class="row">
+    <div class="col-sm-12 mtb-20"></div>
+  </div>
+  <div class="row text-center">
+    <div class="col-sm-12 col-sm-12 col-sm-12">
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe width="100%" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=singapore&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+              <style>
+                  .mapouter{position:relative;text-align:right;height:350px;width:100%;}
+                  .gmap_canvas {overflow:hidden;background:none!important;height:350px;width:100%;}
+              </style>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="section container-fluid mtb-20">
+  <div class="row">
+    <div class="col-sm-12"></div>
+  </div>
+</div>
+
+<div id="get-in-touch"></div>
+<footer class="section container-fluid">
+  <div class="row mtb-20">
+    <div class="col-xs-12 col-sm-12">
+        <div class="text-center"><img src="assets/images/logo/logo_full_footer.png" width="250px">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-1 mtb-20">
+    </div>
+    <div class="col-xs-12 col-sm-6 mtb-20">
+      <div class="mtb-20">
+      <h3 class="mtb-20">Get in Touch</h3>
+      <div class="row" style="border: 1px solid #1a1a1a;padding:20px;background-color: #eaeaea;">
+        <form>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 mb-10">
+              <h4>Full Name</h4>
+              <input class="vm-input" type="text" name="full_name">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 mb-10">
+              <h4>Email</h4>
+              <input class="vm-input" type="email" name="email">
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mb-10">
+              <h4>Service</h4>
+              <select class="vm-input" type="number" name="contact_number">
+                  <option disabled selected>I need help with: </option>
+                  <option value="Website Development">Website Development</option>
+                  <option value="E-commerce">E-commerce</option>
+                  <option value="Chatbot">Chatbot</option>
+                  <option value="Website Application">Website Application</option>
+                  <option value="Mobile Application">Mobile Application</option>
+                  <!-- <option value="Desktop Application">Desktop Application</option> -->
+                  <option value="AI / Machine Learning">AI / Machine Learning</option>
+                  <!-- <option value="Augmented Reality">Augmented Reality</option> -->
+                  <!-- <option value="Virtual Reality">Virtual Reality</option> -->
+                  <option value="Others">Others</option>
+                  <option value="Not Selected">Not sure, just enquiring first</option>
+              </select>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mb-10">
+              <h4>Additional Remarks</h4>
+              <textarea class="vm-input" rows="5" placeholder="Brief description of your situation"></textarea>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mtb-10">
+              <button class="btn-contact-submit">Submit</button>
+              <br><br><small>Please allow at least 3-7 business days for us to respond.</small>
+          </div>
+        </form>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-1 mtb-20">
+    </div>
+    <div class="col-xs-12 col-sm-4 mtb-20">
+      <div class="col-xs-6 col-sm-12">
+          <h3 class="mtb-20">Services</h3>
+          <ul>
+            <li><a href="#website-development">Website Development</a></li>
+            <li><a href="#e-commerce">E-commerce</a></li>
+            <li><a href="#chatbot">Chatbot</a></li>
+            <li><a href="#website-application">Website Application</a></li>
+            <li><a href="#mobile-application">Mobile Application</a></li>
+            <!-- <li><a href="#desktop-application">Desktop Application</a></li> -->
+            <li><a href="#ai-machine-learning">AI / Machine Learning</a></li>
+            <!-- <li><a href="#augmented-reality">Augmented Reality</a></li> -->
+            <!-- <li><a href="#virtual-reality">Virtual Reality</a></li> -->
+          </ul>
+      </div>
+      <div class="col-xs-6 col-sm-12">
+          <h3 class="mtb-20">Company</h3>
+          <ul>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#past-works">Past Works</a></li>
+            <!-- <li><s>Career</s> WIP!</li> -->
+          </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mtb-20">
+    <div class="col-sm-1 mtb-20"></div>
+    <div class="col-sm-10 mtb-20"> 
+      <p>Copyright © 2022 All Rights Reserved. Virtual Maker
+      <br>Co. Reg. No. 53437924M</p>
+    </div>
+    <div class="col-sm-1 mtb-20"></div>
+  </div>
+</footer>
+
+<button onclick="scrollToTop()" id="btnScrollTop">Top</button>
+
+<script type="text/javascript">
+    //add smooth scrolling when clicking any anchor link
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+</script>
+
+</body>
+</html>
